@@ -335,11 +335,13 @@ img{
             margin:1rem;
         font-size: 1.2rem;
         padding: 0.3rem;
+            margin: 0 0.2rem;
     }
     .smalltext{
         font-size: 1.0rem;
         padding: 0.4rem;
         word-wrap: break-word;
+        margin: 0 0.2rem;
     }
     .mainbox{
         height: auto;
