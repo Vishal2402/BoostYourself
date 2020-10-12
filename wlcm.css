@@ -332,6 +332,7 @@ img{
 }
 @media screen and (max-width: 524px){
         .bigtext{
+            margin:1rem;
         font-size: 1.2rem;
         padding: 0.1rem;
     }
