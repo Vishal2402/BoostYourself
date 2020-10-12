@@ -354,6 +354,8 @@ img{
         font-size: 0.8rem;
         margin: 0.2rem 0;
     }
+    .contact input{
+        width: auto;
 }
 @media screen and (max-width: 380px ){
     .body{
