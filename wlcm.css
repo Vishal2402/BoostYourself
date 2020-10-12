@@ -335,13 +335,13 @@ img{
             margin:1rem;
         font-size: 1.2rem;
         padding: 0.3rem;
-            margin: 0 0.2rem;
+            margin: 0.2rem 0;
     }
     .smalltext{
         font-size: 1.0rem;
         padding: 0.4rem;
         word-wrap: break-word;
-        margin: 0 0.2rem;
+        margin: 0.2rem 0;
     }
     .mainbox{
         height: auto;
@@ -353,7 +353,7 @@ img{
         height: 2rem;
         width: 200px;
         font-size: 0.8rem;
-        margin: 0.2rem;
+        margin: 0.2rem 0;
     }
 }
 @media screen and (max-width: 380px ){
