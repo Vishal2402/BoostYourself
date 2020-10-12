@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+         body{
+             margin: 0;
+             padding: 0;
+             background: no-repeat url("https://images.unsplash.com/photo-1434682772747-f16d3ea162c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80");
+            background-size: cover;
+            opacity: 0.9;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+        .active{
+            font-weight: bold;
+        }
+        .navbar{
+    display: none;
+    position: sticky;
+    top: 0;
+    z-index: 1111;
+    display: flex;
+    height: 60px;
+    width: 100%;
+}
+.lnav ul li{
+    padding-left: 40px;
+    color: white;
+    margin-left: 20px;
+}
+.lnav ul{
+    display: flex;
+    justify-items: center;
+    align-items: center ;
+}
+.lnav  img{
+    filter:contrast(200%) brightness(150%);
+    width: 80px;
+    transform: translateY(12px);
+    height: 80px;
+    border-radius: 80px;
+}
+.lnav ul li a{
+    color: wheat;
+    font-size: 18px;
+}
+.lnav{
+    display: flex;
+    width: 70%;
+    background-color: teal;
+}
+.lnav ul li :hover{
+    color: rgb(155, 55, 9);;
+    transition: 0.5s;
+}
+
+.rnav{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    background-color: tomato;
+}
+.rnav ul li{
+    position: relative;
+    text-align: center;
+    transform: translateY(10px);
+    align-items: center;
+    justify-content: center;
+}
+.rnav ul li button{
+    cursor: pointer;
+    border: 1px solid rgb(155, 55, 9) ;
+    font-weight: bold;
+    border-radius: 18px;
+    background-color: transparent;
+    color: wheat;
+    height: 40px;
+    width: 150px;
+}
+
+.rnav ul li button:hover{
+    color: red;
+    background-color: orange;
+    border: none;
+}
+
+
+        form{
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 50px;
+
+           /* border: 2px solid green; */
+        }
+        .a{
+            /* width: 600px; */
+            border: 2px red;
+            float: right;
+            
+        }
+        label{
+            color: white;
+            font-size: 15px;
+            margin-top: 50px;
+        }
+        input{
+
+            font-size: 15px;
+            /* border: none; */
+            padding: 50px;
+            width: 340px;
+            display: block;
+            background-color: transparent;
+            padding: 10px;
+            border-radius: 8px;
+            margin: auto;
+            color: white;
+        }
+        input:hover{
+            /* background-color: transparent; */
+            border: 1px solid white;
+        }
+        @media screen and (max-width: 1200px){
+            body{
+                background-position: cover;
+
+            }
+            .a{
+                margin: auto;
+                float: auto;
+            }
+            label{
+                font-size: 10px;
+            }
+            input{
+                 width: auto;
+                 height: auto;
+            }
+            form{
+                height: cover;
+                overflow: scroll;
+            }
+        }
+        @media only screen and (max-width: 870px){
+            body{
+                text-align: center;
+            align-items: center;
+            justify-content: center;
+             background:no-repeat url("https://images.unsplash.com/photo-1580086319619-3ed498161c77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+            background-size: cover;
+            }
+            .a{
+                position: relative;
+                float: none;
+
+                margin:auto;
+            }
+            label{
+                font-size: 10px;
+            }
+            input{
+                 width: auto;
+                 height: auto;
+            }
+            form{
+                /* position: relative; */
+                text-align: center;
+                height: cover;
+                overflow: scroll;
+            }
+        }
+        </style>
+    
+</head>
+<body>
+ <nav class="navbar background">
+     <div class="lnav lnav-resp">
+         <ul>
+             <li class="logo">
+                 <img src="https://images.unsplash.com/photo-1589828695526-c461b4ddc158?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+                     alt="">
+             </li>
+             <li> <a href="#home">Home </a> </li>
+         </ul>
+     </div>
+     <div class="rnav rnav-resp">
+         <ul>
+             <li><a href="signup.html"><button class="active">JOIN US</button></a></li>
+        </ul>
+    </div>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+     
+     </nav>
+<div class="a">
+<form action="signin.html">
+    <label for="F_name">FIRST NAME</label>
+    <input type="text" id="F_name" name="F_name" class="details" required><br>
+
+    <label for="L_name">LAST NAME</label>
+    <input type="text" name="L_name" id="L_name" class="details" required><br>
+
+    <label for="U_name">USERNAME</label>
+    <input type="text" name="U_name" id="U_name" class="details" required><br>
+
+    <label for="email">EMAIL</label>
+    <input type="email" name="email" id="email" class="details" required><br>
+
+    <label for="Mobile.no">MOBILE NO.</label>
+    <input type="number" name="Mobile.no" id="Mobile.no" class="details" required><br>
+
+    <label for="password">PASSWORD</label>
+    <input type="password" name="password" id="password" class="details" required><br>
+
+    <label for="Confirm_password">CONFIRM PASSWORD</label>
+    <input type="password" name="Confirm_password" id="Confirm_password" class="details" required><br>
+
+    <a href="signin.html"><input type="submit" class="details" value="SUBMIT" onclick="window.location.assign(signin.html)"><a href="signin.html">
+
+<!-- <button class="details"><a href="signin.html">submit</a></button> -->
+</form>
+
+</div>
+
+
+</body>
+</html>

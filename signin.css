@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    background: no-repeat url("https://images.unsplash.com/photo-1590240092097-775ca54bd2b5?ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80");
+    background-size: cover;
+    opacity: 0.9;
+    overflow: scroll;
+    height: 100vh;
+    width: 100%;
+}
+.navbar{
+    display: none;
+    position: sticky;
+    top: 0;
+    z-index: 1111;
+    display: flex;
+    height: 60px;
+    width: 100%;
+}
+.lnav ul li{
+    padding-left: 40px;
+    color: white;
+    margin-left: 20px;
+}
+.lnav ul{
+    display: flex;
+    justify-items: center;
+    align-items: center ;
+}
+.lnav  img{
+    filter:contrast(200%) brightness(150%);
+    width: 80px;
+    transform: translateY(12px);
+    height: 80px;
+    border-radius: 80px;
+}
+.lnav ul li a{
+    color: wheat;
+    font-size: 18px;
+}
+.lnav{
+    display: flex;
+    width: 70%;
+    background-color: teal;
+}
+.lnav ul li :hover{
+    color: rgb(155, 55, 9);;
+    transition: 0.5s;
+}
+
+.rnav{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    background-color: tomato;
+}
+.rnav ul li{
+    position: relative;
+    text-align: center;
+    transform: translateY(10px);
+    align-items: center;
+    justify-content: center;
+}
+.rnav ul li button{
+    cursor: pointer;
+    border: 1px solid rgb(155, 55, 9) ;
+    font-weight: bold;
+    border-radius: 18px;
+    background-color: transparent;
+    color: wheat;
+    height: 40px;
+    width: 150px;
+}
+
+.rnav ul li button:hover{
+    color: red;
+    background-color: orange;
+    border: none;
+}
+
+.b{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    background-color:transparent;
+    margin: auto;
+    /* float: left; */
+    height: 350px;
+    border-radius: 30px;
+    padding: 50px;
+    width: 500px;
+}
+input{
+    text-align: center;
+    height: 30px;
+    color: white;
+    border: none;
+    width: 340px;
+    background-color:transparent;
+    margin: 15px;
+    border-radius: 8px;
+}
+label{
+   
+    color: white;
+}
+.signin{
+    position: relative;
+    padding: 20px;
+}
+.signup{
+    position: relative;
+    padding: 20px;
+}
+
+h1{
+    position: relative;
+    font-size: 60px;
+    top: -50px;
+    color: rgb(79, 105, 221);
+    /* padding: 20px; */
+}
+h2{
+    position: relative;
+    top: -50px;
+    font-size: 40px;
+}
+.usernmbr{
+    height: 200px;
+    width: 200px;
+    background-color: grey ;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.usernmbr input{
+    width: 200px;
+    margin-left: 0px;
+    margin-top: 142px;
+    border-radius: 0px;
+    border: none;
+}
+input:hover{
+    border: 1px solid white;   
+ /* background-color: rgb(170, 163, 163); */
+
+}
+@media screen and (max-width:510px){
+ .b{
+     margin: auto;
+     width: 50%;
+     height: auto;
+ }   
+ input{
+     height: 20px;
+     width: auto;
+     margin: auto;
+ }
+ .container{
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+    background-position: cover;
+    opacity: 0.9;
+    overflow: scroll;
+ }
+}
