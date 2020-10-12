@@ -344,7 +344,7 @@ img{
         height: auto;
         width: auto;
         justify-content: center;
-        margin: 0 1rem;
+        margin: 0 0.5rem;
     }
     .btn{
         height: 2rem;
