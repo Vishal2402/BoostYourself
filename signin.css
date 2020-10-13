@@ -156,6 +156,10 @@ input:hover{
      width: 50%;
      height: auto;
  }   
+    div li a{
+        font-size: 17px;
+        font-weight: bold;
+    }
  input{
      height: 20px;
      width: auto;
