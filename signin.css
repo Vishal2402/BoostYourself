@@ -53,7 +53,10 @@
     color: rgb(155, 55, 9);;
     transition: 0.5s;
 }
-
+ div li a{
+        font-size: 17px;
+        font-weight: bold;
+    }
 .rnav{
     display: flex;
     width: 30%;
@@ -155,11 +158,7 @@ input:hover{
      margin: auto;
      width: 50%;
      height: auto;
- }   
-    div li a{
-        font-size: 17px;
-        font-weight: bold;
-    }
+ }  
  input{
      height: 20px;
      width: auto;
