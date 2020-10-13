@@ -59,7 +59,7 @@
         color: white;
         text-decoration: none;
         list-style: none;
-     align-text: center;
+     justify-content: center;
     }
 .rnav{
     display: flex;
