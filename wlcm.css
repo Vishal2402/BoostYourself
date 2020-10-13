@@ -360,6 +360,9 @@ img{
     .contact input{
         width: auto;
     }
+    .textarea{
+    width: auto;
+    }
 }
 @media screen and (max-width: 380px ){
     .body{
