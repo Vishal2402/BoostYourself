@@ -56,7 +56,7 @@
  div ul li a{
         font-size: 20px;
         font-weight: bold;
-        color: white;
+        color: wheat;
         text-decoration: none;
         list-style: none;
      transform: translateY(10px);
@@ -114,7 +114,6 @@ input{
     border-radius: 8px;
 }
 label{
-   
     color: white;
 }
 .signin{
@@ -163,10 +162,13 @@ input:hover{
      width: 50%;
      height: auto;
  }  
+  label{
+        margin: 10px 0;
+ }
  input{
      height: 20px;
      width: auto;
-     margin: auto;
+     margin: auto auto;
  }
  .container{
      text-align: center;
