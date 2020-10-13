@@ -53,9 +53,10 @@
     color: rgb(155, 55, 9);;
     transition: 0.5s;
 }
- div li a{
+ div ul li a{
         font-size: 17px;
         font-weight: bold;
+     color: white;
     }
 .rnav{
     display: flex;
